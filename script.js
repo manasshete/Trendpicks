@@ -20,7 +20,7 @@ const products = [
     price: "999₹",
     oldPrice: "1999₹",
     image: "./assets/lamp.jpg",
-    affiliateUrl: "",
+    affiliateUrl: "https://amzn.to/479Ykwc",
     category: "home",
     badge: "Top Pick",
     rating: 5,
