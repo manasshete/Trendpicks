@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Discover trending products loved by students and young adults. Curated picks with the best Amazon deals — updated weekly." />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Open Graph for Pinterest / Social sharing -->
+    <meta property="og:title" content="Trending Products You'll Love" />
+    <meta property="og:description"
+        content="Curated Amazon finds for students & young adults. Shop the best trending products now." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1200" />
+
+    <title>Trending Products You'll Love | Top Amazon Picks</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- ── HEADER ── -->
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo">✦ TrendPicks</div>
+            <p class="tagline">Curated Amazon finds you'll actually love</p>
+        </div>
+    </header>
+
+    <!-- ── HERO ── -->
+    <section class="hero">
+        <div class="hero-inner">
+            <h1 class="hero-title">Trending Products<br /><span class="hero-accent">You'll Love</span></h1>
+            <p class="hero-sub">Hand-picked deals for students & young adults — updated weekly 🛍️</p>
+        </div>
+    </section>
+
+    <!-- ── FILTER TABS ── -->
+    <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="tech">Tech</button>
+        <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+        <button class="filter-btn" data-filter="study">Study</button>
+        <button class="filter-btn" data-filter="home">Home</button>
+        <button class="filter-btn" data-filter="fashion">Fashion</button>
+    </div>
+
+    <!-- ── PRODUCT GRID ── -->
+    <main class="container">
+        <div class="product-grid" id="productGrid">
+            <!-- Cards injected by script.js -->
+        </div>
+    </main>
+
+    <!-- ── FOOTER ── -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p class="affiliate-notice">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="12" y1="8" x2="12" y2="12" />
+                    <line x1="12" y1="16" x2="12.01" y2="16" />
+                </svg>
+                As an Amazon Associate, we earn from qualifying purchases.
+            </p>
+            <p class="footer-copy">© 2025 TrendPicks · All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
